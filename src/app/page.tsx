@@ -54,7 +54,7 @@ export default function Home() {
               <tbody>
                 <tr>
                   <td className="py-1 text-sm w-2/5">Nomor Uji Kendaraan</td>
-                  <td className="py-1 text-sm">: C172121098</td>
+                  <td className="py-1 text-sm">: CC172121098</td>
                 </tr>
                 <tr>
                   <td className="py-1 text-sm w-2/5">Nomor dan Tanggal Sertifikat Registrasi</td>
@@ -70,7 +70,7 @@ export default function Home() {
                 </tr>
                 <tr>
                   <td className="py-1 text-sm w-2/5">Nomor Motor Penggerak</td>
-                  <td className="py-1 text-sm">: CC172121098</td>
+                  <td className="py-1 text-sm">: 4D34TY10816</td>
                 </tr>
               </tbody>
             </table>
