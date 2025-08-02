@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f6fc;
+    color: #2e2e2e;
+  }
+  
+  header {
+    background: linear-gradient(to bottom, #0c0747, #062c78);
+    color: white;
+    padding: 1rem 2rem;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .menu-icon {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .logo img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .logo h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .status-berlaku {
+    color: #5dc761;
+    font-size: 1.3rem;
+  }
+  
+  .numpang-uji {
+    color: #6e45d9;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .masa-berlaku {
+    margin-top: 20px;
+    font-size: 1.1rem;
+  }
+  
+  .identitas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 20px;
+    gap: 20px;
+  }
+  
+  .identitas-pemilik, .identitas-kendaraan {
+    flex: 1 1 45%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .identitas-pemilik h3, .identitas-kendaraan h3 {
+    margin-bottom: 15px;
+    color: #062c78;
+    font-size: 1.1rem;
+  }
+  
+  .identitas-pemilik table,
+  .identitas-kendaraan table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .identitas-pemilik td,
+  .identitas-kendaraan td {
+    padding: 6px 4px;
+    vertical-align: top;
+    font-size: 0.95rem;
+  }
+  
+  .foto-kendaraan {
+    padding: 30px 20px;
+    text-align: center;
+  }
+  
+  .foto-kendaraan h3 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #062c78;
+  }
+  
+  .foto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .foto-card {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 220px;
+  }
+  
+  .foto-card h4 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .foto-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .spesifikasi-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 20px;
+    gap: 20px;
+  }
+  
+  .spesifikasi-kiri, .spesifikasi-kanan {
+    flex: 1 1 45%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .spesifikasi-kiri h3, .spesifikasi-kanan h3 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #062c78;
+  }
+  
+  .spesifikasi-kanan h4.hasil-judul {
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .spesifikasi-kiri table,
+  .spesifikasi-kanan table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .spesifikasi-kiri td,
+  .spesifikasi-kanan td {
+    padding: 6px 4px;
+    vertical-align: top;
+    font-size: 0.95rem;
+  }
+  
+  .spesifikasi-kiri strong,
+  .spesifikasi-kanan strong {
+    color: #000;
+  }
+
+  .tabel-uji th:nth-child(1),
+.tabel-uji td:nth-child(1) {
+  text-align: left;
+}
+
+.tabel-uji th:nth-child(2),
+.tabel-uji td:nth-child(2) {
+  text-align: center;
+}
+
+.tabel-uji th:nth-child(3),
+.tabel-uji td:nth-child(3) {
+  text-align: right;
+}
+
+.tabel-uji td,
+.tabel-uji th {
+  vertical-align: top;
+}
+
+.left-column {
+    width: 25%;
+    font-weight: bold;
+  }
+  .middle-column {
+    width: 50%;
+    text-align: justify;
+    font-style: italic;
+}
+
+.right-column {
+    width: 25%;
+    text-align: right;
+}
+.roman-numbers {
+    text-align: right;
+    padding-right: 20px;
+}
+small {
+    font-size: 0.9em;
+}
+
+.header-row td {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+}
+
+.hasil-judul {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+.tabel-hasil {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+.tabel-hasil td {
+    padding: 5px 0;
+    vertical-align: top;
+    border: none;
+    margin: 0;
+}
+.tabel-hasil td:first-child {
+    width: 40%;
+    padding-right: 10px;
+}
+.tabel-hasil td:last-child {
+    width: 60%;
+}
+.unit-text {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+}
