@@ -32,7 +32,7 @@ export default function Home() {
         <section className="flex flex-wrap justify-between px-5 gap-5 mb-8">
           {/* Owner Identity */}
           <div className="flex-1 min-w-[48%] bg-white p-5 rounded-md border border-gray-100">
-            <h3 className="text-[#0a2377] text-base font-bold uppercase mb-3 border-b pb-1">IDENTITAS PEMILIK KENDARAAN DAN BLUe</h3>
+            <h3 className="text-[#0a2377] text-base font-bold uppercase mb-3 border-b pb-1">IDENTITAS PEMILIK KENDARAAN </h3>
             <table className="w-full border-separate border-spacing-y-2">
               <tbody>
                 <tr>
@@ -42,17 +42,6 @@ export default function Home() {
                 <tr>
                   <td className="py-1 text-sm w-1/3">Alamat Pemilik</td>
                   <td className="py-1 text-sm">: JL. LINTAS KABUPATEN RT.05, Kotawaringin Lama</td>
-                </tr>
-                <tr>
-                  <td className="py-1 text-sm font-bold" colSpan={2}>Identitas BLUe</td>
-                </tr>
-                <tr>
-                  <td className="py-1 text-sm">Nomor Kartu</td>
-                  <td className="py-1 text-sm">: R6137068</td>
-                </tr>
-                <tr>
-                  <td className="py-1 text-sm">Nomor RFID</td>
-                  <td className="py-1 text-sm">: R6134167</td>
                 </tr>
               </tbody>
             </table>
@@ -237,32 +226,51 @@ export default function Home() {
                   <td className="py-1 text-sm text-right">
                     I 2%<br />
                     II 2%<br />
-                    II 3%
+                    II 3%<br />
+                    IV	0 %
                   </td>
                 </tr>
                 <tr>
-                  <td className="py-1 text-sm font-medium">Lampu Utama Kanan</td>
+                  <td className="py-1 text-sm font-medium">Lampu Utama</td>
                   <td className="py-1 text-xs text-gray-700">
                     Kekuatan pancar lampu utama<br />
                     kanan 12000 cd (lampu jauh)
                   </td>
-                  <td className="py-1 text-sm text-right">: 21000 cd</td>
+                  <td className="py-1 text-sm text-right">: 40900 cd</td>
                 </tr>
                 <tr>
-                  <td className="py-1 text-sm font-medium">Lampu Utama Kiri</td>
+                  <td className="py-1 text-sm"></td>
                   <td className="py-1 text-xs text-gray-700">
                     Kekuatan pancar lampu utama kiri<br />
                     12000 cd (lampu jauh)
                   </td>
-                  <td className="py-1 text-sm text-right">: 21000 cd</td>
+                  <td className="py-1 text-sm text-right">: 38500 cd</td>
                 </tr>
                 <tr>
-                  <td className="py-1 text-sm font-medium">Emisi CO</td>
+                  <td className="py-1 text-sm"></td>
                   <td className="py-1 text-xs text-gray-700">
-                    Bahan bakar solar<br />
-                    CO : 4.5%
+                    Penyimpangan ke kanan 0° 34'<br />
+                    (lampu jauh)
                   </td>
-                  <td className="py-1 text-sm text-right">: %</td>
+                  <td className="py-1 text-sm text-right">: 0.20</td>
+                </tr>
+                <tr>
+                  <td className="py-1 text-sm"></td>
+                  <td className="py-1 text-xs text-gray-700">
+                    Penyimpangan ke kiri 1° 09'<br />
+                    (lampu jauh)
+                  </td>
+                  <td className="py-1 text-sm text-right">: 0.30</td>
+                </tr>
+                <tr>
+                  <td className="py-1 text-sm font-medium">Emisi</td>
+                  <td className="py-1 text-xs text-gray-700">
+                    Bahan bakar bensin<br />
+                    tahun pembuatan &lt;= 2010<br />
+                    CO : 32.00 %<br />
+                    HC : 0 ppm
+                  </td>
+                  <td className="py-1 text-sm text-right"></td>
                 </tr>
               </tbody>
             </table>
