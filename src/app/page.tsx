@@ -249,7 +249,7 @@ export default function Home() {
                 <tr>
                   <td className="py-1 text-sm"></td>
                   <td className="py-1 text-xs text-gray-700">
-                    Penyimpangan ke kanan 0° 34'<br />
+                    Penyimpangan ke kanan 0° 34&apos;<br />
                     (lampu jauh)
                   </td>
                   <td className="py-1 text-sm text-right">: 0.20</td>
@@ -257,7 +257,7 @@ export default function Home() {
                 <tr>
                   <td className="py-1 text-sm"></td>
                   <td className="py-1 text-xs text-gray-700">
-                    Penyimpangan ke kiri 1° 09'<br />
+                    Penyimpangan ke kiri 1° 09&apos;<br />
                     (lampu jauh)
                   </td>
                   <td className="py-1 text-sm text-right">: 0.30</td>
